@@ -1,7 +1,7 @@
 const productsMap = {
-    "product1": {price: 1000},
-    "product2": {price: 1500},
-    "product3": {price: 2000}
+    "product1": {price: 320},
+    "product2": {price: 200},
+    "product3": {price: 350}
 }; 
 
 window.addEventListener("DOMContentLoaded", function () {
