@@ -1,8 +1,8 @@
 const productsMap = {
-    "product1": {price: 100},
-    "product2": {price: 120},
-    "product3": {price: 140}
-}; // Менять только цену
+    "product1": {price: 1000},
+    "product2": {price: 1500},
+    "product3": {price: 2000}
+}; 
 
 window.addEventListener("DOMContentLoaded", function () {
     const quantityInput = document.getElementById("quantityInput");
@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function () {
     const answerDiv = document.getElementById("answerDiv");
     const render = (price) => {
         if (isNaN(price)) {
-            answerDiv.innerText = `Не верный ввод`; // перефразировать
+            answerDiv.innerText = `Введите ещё раз`; 
         } else {
             answerDiv.innerText =
                 `Стоимость: ${price}`;
