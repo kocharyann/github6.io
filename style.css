@@ -25,7 +25,7 @@ body {
     margin: 5px;
 }
 #select{
-    background-color: #eb7187; /*цвет выбора товара*/
+    background-color: #c98f9b; /*цвет выбора товара*/
 }
 #calculate{
     background-color: #421921; /*цвет фона кнопки подсчета*/
@@ -39,7 +39,7 @@ form label {
 }
 
 #answerDiv {
-    background-color: midnightblue; /* цвет фона ответа */
+    background-color: #5e0808; /* цвет фона ответа */
     color: mintcream; /* цвет текста калькулятора */
 }
 
